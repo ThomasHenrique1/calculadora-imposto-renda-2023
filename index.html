@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Cálculo do Imposto de Renda</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo do Imposto de Renda</h1>
+        <form>
+            <label for="txtrec">Registro:</label>
+            <input type="text" id="txtrec"><br>
+            <label for="txtnome">Nome:</label>
+            <input type="text" id="txtnome"><br>
+            <label for="txtsalario">Salário:</label>
+            <input type="text" id="txtsalario" value="R$ 0,00"><br>
+            <input type="button" value="Calcular Imposto" id="botao"><br>
+            <label for="txtimposto">Imposto de renda:</label>
+            <input type="text" id="txtimposto" readonly><br>
+        </form>
+        <p class="aviso">* O cálculo deste imposto é baseado nas regras de 2023. As alíquotas podem ter mudado e não são aplicáveis ao ano atual.</p>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

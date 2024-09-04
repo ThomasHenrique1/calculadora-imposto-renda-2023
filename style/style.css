@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3d758f, #636c70); /* Gradiente sofisticado */
+    color: #ffffff; /* Texto em branco */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Container geral */
+.container {
+    background-color: #737373; /* Fundo azul acinzentado claro */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Título */
+h1 {
+    color: #ffffff; /* Texto branco */
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Formulário */
+form {
+    background-color: #8b8b8b; /* Fundo escuro para o formulário */
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Labels */
+label {
+    color: #d6ae83; /* Neutro claro */
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Inputs de texto */
+input[type="text"] {
+    width: calc(100% - 22px); /* Ajusta largura para caber dentro do padding e da borda */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #5F6D73; /* Cinza azulado */
+    border-radius: 5px;
+    background-color: #717171; /* Fundo dos inputs escuro */
+    color: #ffffff; /* Texto branco */
+    font-size: 1em;
+}
+
+/* Botão de cálculo */
+input[type="button"] {
+    background-color: #3d618f; /* Azul acinzentado claro */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: #1d3480; /* Um tom mais escuro de azul */
+}
+
+/* Campo de resultado */
+input[readonly] {
+    background-color: #717171; /* Fundo escuro dos campos readonly */
+    color: #ffffff; /* Texto branco */
+    font-weight: bold;
+    border: 1px solid #5F6D73; /* Cinza azulado */
+}
+
+/* Aviso */
+.aviso {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 0.9em;
+    text-align: center;
+}
